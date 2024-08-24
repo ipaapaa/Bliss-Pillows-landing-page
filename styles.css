@@ -8,9 +8,38 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 1.3em;
+  background-color: #1f2937;
+  color: whitesmoke;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 32px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1.6em;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.navigation ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: whitesmoke;
 }
