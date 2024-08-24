@@ -190,6 +190,8 @@ body {
   justify-content: center;
   align-items: center;
   gap: 4em;
+  margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 .call-to-action-container .right-side button {
@@ -200,4 +202,9 @@ body {
   border: #e5e7eb solid 1px;
   color: #e5e7eb;
   flex-shrink: 0;
+}
+
+.call-to-action-container .right-side button:hover {
+  background-color: #e5e7eb;
+  color: black;
 }
