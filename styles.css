@@ -208,3 +208,13 @@ body {
   background-color: #e5e7eb;
   color: black;
 }
+
+/*footer*/
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 1.5em;
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
