@@ -168,4 +168,36 @@ body {
   font-size: 24px;
   font-style: bold;
   font-weight: 500;
+  width: 150px;
+  flex-shrink: 0;
+}
+/*call-to-action*/
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  padding: 1.3em;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+.call-to-action-container {
+  background-color: #3882f6;
+  padding: 2em 5em;
+  border-radius: 9px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4em;
+}
+
+.call-to-action-container .right-side button {
+  width: 100px;
+  padding: 0.4em 1.6em;
+  cursor: pointer;
+  background-color: #3882f6;
+  border: #e5e7eb solid 1px;
+  color: #e5e7eb;
+  flex-shrink: 0;
 }
