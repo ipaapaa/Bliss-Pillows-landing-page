@@ -129,6 +129,7 @@ body {
   text-align: center;
   flex-shrink: 0;
   font-size: 18px;
+  margin-bottom: 5em;
 }
 
 .information-container .item {
@@ -137,4 +138,34 @@ body {
 
 .information-container .item img {
   margin-bottom: 2em;
+}
+
+/*quote*/
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.3em;
+  padding-left: 10em;
+  padding-right: 10em;
+  height: 15em;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  flex-direction: column;
+  gap: 1.8 em;
+}
+
+#main-quote {
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 200;
+  text-align: center;
+}
+
+#bliss-pillows {
+  margin-left: 89%;
+  font-size: 24px;
+  font-style: bold;
+  font-weight: 500;
 }
