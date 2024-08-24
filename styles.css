@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +10,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   flex: 1 1 auto;
 }
 
@@ -46,6 +48,10 @@ body {
 .navigation ul li a {
   text-decoration: none;
   color: #e5e7eb;
+}
+
+.navigation ul li a:hover {
+  color: #ffffff;
 }
 
 /*hero*/
@@ -94,4 +100,41 @@ body {
 
 .hero img {
   width: 500px;
+}
+
+/*information*/
+
+.information {
+  padding: 1.3em;
+  padding-left: 10em;
+  padding-right: 10em;
+  font-family: "Roboto", sans-serif;
+}
+
+.information-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 900;
+  margin-top: 1.3em;
+}
+
+.information-container {
+  display: flex;
+  margin-top: 5em;
+  justify-content: space-between;
+  gap: 1.3em;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-shrink: 0;
+  font-size: 18px;
+}
+
+.information-container .item {
+  width: 20%;
+}
+
+.information-container .item img {
+  margin-bottom: 2em;
 }
